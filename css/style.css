@@ -1,6 +1,9 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    
+    margin: 1em;
 }
 body {
     display: flex;
@@ -8,8 +11,34 @@ body {
     width: 100vw;
     overflow-x: auto;
     justify-content: flex-start;
+    padding: 2em;
+    margin: 0 !important;
 }
 
-.main-doc {
+#navbar {
+    width: 28vw;
+    position: sticky;
+    top: 1vh; 
+}
+
+#nabar > ul {
     
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar > ul > li {
+    font-size: 1.2em;
+    padding: 0.5em;
+    list-style: none;
+    border: 1px black solid;
+    margin: 0;
+}
+
+#main-doc {
+    /* width: 72vw; */
+    /* position: fixed; */
+    /* top: 1vh; */
+    /* right: 1vw; */
+    /* overflow-y: auto; */
 }
